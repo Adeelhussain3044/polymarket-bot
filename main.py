@@ -1,9 +1,10 @@
 import time
 import requests
 
-BOT_TOKEN = "8689029637:AAGZLwew8ra9IacPmTs2bOtf7KQJg-e0oU4"
-CHAT_ID = "5785670313"
+import os
 
+BOT_TOKEN = os.getenv("8689029637:AAGZLwew8ra9IacPmTs2bOtf7KQJg-e0oU4")
+CHAT_ID = os.getenv("5785670313")
 KEYWORDS = [
     "jesus",
     "ufo",
